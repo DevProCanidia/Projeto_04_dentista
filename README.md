@@ -16,7 +16,7 @@ Tecnologias
 <!--ts-->
 * Esse projeto foi feito baseado no Curso Full Stack Master da [Danki code.](https://cursos.dankicode.com/)
 * Construído com Html, CSS e JS 
-* Carrossel de imagens ultilizando o slick
+* Carrossel de imagens automático ultilizando o slick 
 * Menu mobile com scroll
 * Totalmente personalizável
 * Depoimentos

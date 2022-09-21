@@ -7,6 +7,8 @@ $(function(){
 		centerMode: false, //
 		slidesToShow: 6,//qtd de slides q aparece inicialmente
 		arrows: false, // Não mostrar setas
+		autoplay: true,
+		autoplaySpeed: 2000,
 		responsive:[
 
 		/* TIPO UMA MEDIA SCREEN DO CSS ( DIMENSIONAMENTO DE TELAS)*/
@@ -23,7 +25,7 @@ $(function(){
 			breakpoint:580,// a partir dessa dimensão 580px
 			settings:{
 				centerMode: true, // mostra os slides do lado esquerdo e direito
-				slidesToShow: 2,//qtd de slides q aparece inicialmente
+				slidesToShow: 1,//qtd de slides q aparece inicialmente
 				arrows: false, // Não mostrar setas
 			}
 		},
@@ -33,7 +35,7 @@ $(function(){
 			settings:{
 				centerMode: false, // Não mostra os slides do lado esquerdo e direito
 				slidesToShow: 1,//qtd de slides q aparece inicialmente
-				arrows: true, // Não mostrar setas
+				arrows: false, // Não mostrar setas
 			}
 		},
 		]
@@ -47,6 +49,8 @@ $(function(){
 		slidesToShow: 1,//qtd de slides q aparece inicialmente
 		arrows: false, // Não mostrar setas
 		infinite: true, // Quando chega no final ele retorna para o ínicio
+		autoplay: true,
+		autoplaySpeed: 2000,
 		responsive:[
 
 		/* TIPO UMA MEDIA SCREEN DO CSS ( DIMENSIONAMENTO DE TELAS)*/
@@ -57,7 +61,7 @@ $(function(){
 					slidesToShow: 1,//qtd de slides q aparece inicialmente
 					arrows: false, // Não mostrar setas
 					dots:true,
-					infinite: false,
+					infinite: true,
 				}
 			},
 
@@ -68,7 +72,7 @@ $(function(){
 				slidesToShow: 1,//qtd de slides q aparece inicialmente
 				arrows: false, // Não mostrar setas
 				dots:true,
-				infinite: false,
+				infinite: true,
 			}
 			}
 
@@ -81,7 +85,9 @@ $(function(){
 		slidesToShow: 1,//qtd de slides q aparece inicialmente
 		arrows: false, // Não mostrar setas
 		dots:true,
-		infinite: false,
+		infinite: true,
+		autoplay: true,
+		autoplaySpeed: 2000,
 	})
 
 
